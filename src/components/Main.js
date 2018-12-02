@@ -65,7 +65,6 @@ const Main = ({ seconds }) => {
       <Figure n={weeks} unit="semanas" precision={2} />
       <Or />
       <Figure n={months} unit="meses" precision={2} />
-      <BigCurvyText>Para voltar para o Brasil!</BigCurvyText>
     </Column>
   );
 };
