@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import trip from '../assets/travel-world.gif';
 
 const Column = styled.main`
   display: flex;
