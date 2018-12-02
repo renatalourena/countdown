@@ -39,7 +39,7 @@ const Figure = ({ n, unit, precision = 0 }) => (
 );
 const Or = () => (
   <CurvyText>
-    <Fade>or...</Fade>
+    <Fade>ou...</Fade>
   </CurvyText>
 );
 
@@ -52,19 +52,19 @@ const Main = ({ seconds }) => {
 
   return (
     <Column>
-      <CurvyText>It's</CurvyText>
-      <Figure n={seconds} unit="seconds" />
+      <CurvyText>Faltam</CurvyText>
+      <Figure n={seconds} unit="segundos" />
       <Or />
-      <Figure n={minutes} unit="minutes" />
+      <Figure n={minutes} unit="minutos" />
       <Or />
-      <Figure n={hours} unit="hours" />
+      <Figure n={hours} unit="horas" />
       <Or />
-      <Figure n={days} unit="days" />
+      <Figure n={days} unit="dias" />
       <Or />
-      <Figure n={weeks} unit="weeks" precision={2} />
+      <Figure n={weeks} unit="semanas" precision={2} />
       <Or />
-      <Figure n={months} unit="months" precision={2} />
-      <BigCurvyText>until we go home!</BigCurvyText>
+      <Figure n={months} unit="meses" precision={2} />
+      <BigCurvyText>pra gente voltar para o Brasil!</BigCurvyText>
       <SolidText>^_^</SolidText>
     </Column>
   );
