@@ -16,7 +16,7 @@ injectGlobal`
   }
 `;
 
-const leaving = new Date(2018, 10, 24, 12);
+const leaving = new Date(2018, 11, 18, 12);
 const seconds = () => (leaving - Date.now()) / 1000;
 
 class IndexPage extends React.Component {
