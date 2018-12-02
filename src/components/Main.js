@@ -52,10 +52,11 @@ const Main = ({ seconds }) => {
 
   return (
     <Column>
+      <img src={trip} alt="loading..." />
       <CurvyText>Faltam</CurvyText>
-      <Figure n={seconds} unit="segundos" />
+      <Figure n={seconds} unit="s" />
       <Or />
-      <Figure n={minutes} unit="minutos" />
+      <Figure n={minutes} unit="min" />
       <Or />
       <Figure n={hours} unit="horas" />
       <Or />
@@ -64,8 +65,7 @@ const Main = ({ seconds }) => {
       <Figure n={weeks} unit="semanas" precision={2} />
       <Or />
       <Figure n={months} unit="meses" precision={2} />
-      <BigCurvyText>pra gente voltar para o Brasil!</BigCurvyText>
-      <SolidText>^_^</SolidText>
+      <BigCurvyText>Para voltar para o Brasil!</BigCurvyText>
     </Column>
   );
 };

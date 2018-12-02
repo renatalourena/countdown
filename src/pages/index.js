@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>We're coming home!</title>
+          <title>Estamos Voltando!</title>
         </Helmet>
         <Main seconds={this.state.seconds} />
       </div>
