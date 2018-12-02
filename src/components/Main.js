@@ -20,7 +20,6 @@ const CurvyText = styled.p`
   margin: 0;
   font-size: 32px;
   font-style: italic;
-  font-family: cursive;
 `;
 const BigCurvyText = CurvyText.extend`
   margin: 0;
